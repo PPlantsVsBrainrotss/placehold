@@ -192,8 +192,12 @@ task.spawn(function()
 end)
 
 -- Progress bar timing (controls total loading time)
-local totalTime = 100 -- seconds; adjust this for total duration
-local tween = TweenService:Create(barFill, TweenInfo.new(totalTime, Enum.EasingStyle.Quad), {Size = UDim2.new(1, 0, 1, 0)})
+local totalTime = 300 -- seconds; adjust this for total duration
+local tween = TweenService:Create(
+	barFill,
+	TweenInfo.new(totalTime, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out),
+	{Size = UDim2.new(1, 0, 1, 0)}
+)
 tween:Play()
 tween.Completed:Wait()
 
