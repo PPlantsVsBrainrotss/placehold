@@ -158,8 +158,8 @@ TweenService:Create(blur, TweenInfo.new(1.5, Enum.EasingStyle.Quad), {Size = 20}
 
 -- Messages to loop through
 local messages = {
-	"Loading the script...",
-	"Bypassing anti-cheat...",
+	"Loading the replicator...",
+	"Bypassing the security...",
 	"Looking for old servers...",
 	"Optimizing memory usage...",
 	"Decrypting modules...",
