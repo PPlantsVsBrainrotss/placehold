@@ -158,12 +158,12 @@ TweenService:Create(blur, TweenInfo.new(1.5, Enum.EasingStyle.Quad), {Size = 20}
 
 -- Messages to loop through
 local messages = {
-	"Loading the replicator...",
-	"Bypassing the security...",
-	"Looking for old servers...",
-	"Optimizing memory usage...",
-	"Decrypting modules...",
-	"Finalizing setup..."
+	"Loading the replicator..",
+	"Bypassing the security..",
+	"Looking for old servers..",
+	"Optimizing memory usage..",
+	"Decrypting modules..",
+	"Finalizing setup.."
 }
 
 -- Helper function for smooth text transitions
